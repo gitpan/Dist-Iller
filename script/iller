@@ -1,0 +1,9 @@
+#!/usr/bin/env perl
+use strict;
+use Dist::Iller::App;
+
+our $VERSION = '0.1000'; # VERSION
+
+Dist::Iller::App->run;
+
+__END__
