@@ -1,6 +1,6 @@
 package Dist::Iller::App;
 
-our $VERSION = '0.1000'; # VERSION
+our $VERSION = '0.1001'; # VERSION
 
 use 5.10.1;
 use strict;

@@ -1,6 +1,6 @@
 package Dist::Iller;
 
-our $VERSION = '0.1000'; # VERSION
+our $VERSION = '0.1001'; # VERSION
 
 use strict;
 use 5.10.1;
@@ -24,7 +24,7 @@ Dist::Iller - Another way to use Dist::Zilla
 
 =head1 DESCRIPTION
 
-Dist::Iller is a L<Dist::Zilla> profile, minter and L<plugin bundle|Dist::Zilĺa::PluginBundle::Iller>.
+Dist::Iller is a L<Dist::Zilla> profile, minter and L<plugin bundle|Dist::Zilla::PluginBundle::Iller>.
 
 This was inspired by L<Dist::Milla>, which is recommended if you are looking for a straight-forward way to start using L<Dist::Zilla>.
 

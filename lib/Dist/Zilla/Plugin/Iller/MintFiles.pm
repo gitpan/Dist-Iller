@@ -1,6 +1,6 @@
 package Dist::Zilla::Plugin::Iller::MintFiles;
 
-our $VERSION = '0.1000'; # VERSION
+our $VERSION = '0.1001'; # VERSION
 
 use Moose;
 extends 'Dist::Zilla::Plugin::InlineFiles';

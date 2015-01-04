@@ -1,6 +1,6 @@
 package Dist::Zilla::Plugin::Iller::MetaGeneratedBy;
 
-our $VERSION = '0.1000'; # VERSION
+our $VERSION = '0.1001'; # VERSION
 
 use Moose;
 with 'Dist::Zilla::Role::MetaProvider';

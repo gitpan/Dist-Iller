@@ -1,6 +1,6 @@
 package Dist::Zilla::PluginBundle::Iller;
 
-our $VERSION = '0.1000'; # VERSION
+our $VERSION = '0.1001'; # VERSION
 
 use Dist::Iller;
 use Moose;
