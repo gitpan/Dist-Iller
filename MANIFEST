@@ -14,6 +14,7 @@ lib/Dist/Zilla/MintingProfile/Iller.pm
 lib/Dist/Zilla/Plugin/Iller/MetaGeneratedBy.pm
 lib/Dist/Zilla/Plugin/Iller/MintFiles.pm
 lib/Dist/Zilla/PluginBundle/Iller.pm
+lib/Pod/Weaver/PluginBundle/Iller.pm
 profiles/iller/Module.pm.template
 profiles/iller/profile.ini
 script/iller

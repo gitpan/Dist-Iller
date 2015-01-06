@@ -1,9 +1,10 @@
 package Dist::Iller::App;
 
-our $VERSION = '0.1001'; # VERSION
+our $VERSION = '0.1100'; # VERSION
 
 use 5.10.1;
 use strict;
+use warnings;
 use parent 'Dist::Zilla::App';
 use IPC::Run;
 use File::chdir;
@@ -23,6 +24,7 @@ sub prepare_command {
         $ENV{'DZIL_CONFIRMRELEASE_DEFAULT'} // 1;
     }
     elsif ($cmd->isa('Dist::Zilla::App::Command::new')) {
+        $ENV{'ILLER_MINTING'} = 1;
         IPC::Run::run [qw/dzil new --provider Iller --profile iller/, $args[0] ];
         my $dir = $args[0];
         $dir =~ s{::}{-}g;
@@ -42,3 +44,30 @@ sub prepare_command {
 }
 
 1;
+
+__END__
+
+=pod
+
+=encoding UTF-8
+
+=head1 NAME
+
+Dist::Iller::App
+
+=head1 VERSION
+
+version 0.1002
+
+=head1 AUTHOR
+
+Erik Carlsson <info@code301.com>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2015 by Erik Carlsson.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+=cut

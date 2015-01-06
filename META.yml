@@ -24,6 +24,7 @@ no_index:
     - eg
     - examples
 requires:
+  Config::INI: '0'
   Dist::Zilla: '5.000'
   Dist::Zilla::Plugin::CheckChangesHasContent: '0'
   Dist::Zilla::Plugin::ConfirmRelease: '0'
@@ -47,6 +48,8 @@ requires:
   Dist::Zilla::Plugin::NextVersion::Semantic: '0'
   Dist::Zilla::Plugin::OurPkgVersion: '0'
   Dist::Zilla::Plugin::PodSyntaxTests: '0'
+  Dist::Zilla::Plugin::PodWeaver: '4.000'
+  Dist::Zilla::Plugin::PodnameFromFilename: '0'
   Dist::Zilla::Plugin::Prereqs::FromCPANfile: '0'
   Dist::Zilla::Plugin::PreviousVersion::Changelog: '0'
   Dist::Zilla::Plugin::ReadmeAnyFromPod: '0'
@@ -62,12 +65,16 @@ requires:
   File::chdir: '0'
   Git::Wrapper: '0'
   IPC::Run: '0'
+  List::AllUtils: '0'
   Moose: '2.0000'
   MooseX::AttributeShortcuts: '0'
+  Path::Tiny: '0'
+  Pod::Weaver::Config::Assembler: '0'
   Types::Standard: '0'
+  namespace::autoclean: '0'
   perl: '5.010001'
 resources:
   bugtracker: https://github.com/Csson/p5-Dist-Iller/issues
-  homepage: https://github.com/Csson/p5-Dist-Iller
+  homepage: https://metacpan.org/release/Dist-Iller
   repository: https://github.com/Csson/p5-Dist-Iller.git
-version: '0.1001'
+version: '0.1002'

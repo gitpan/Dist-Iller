@@ -21,6 +21,7 @@ my @files = (
     'lib/Dist/Zilla/Plugin/Iller/MetaGeneratedBy.pm',
     'lib/Dist/Zilla/Plugin/Iller/MintFiles.pm',
     'lib/Dist/Zilla/PluginBundle/Iller.pm',
+    'lib/Pod/Weaver/PluginBundle/Iller.pm',
     'script/iller',
     't/basic.t'
 );
