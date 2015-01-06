@@ -1,6 +1,6 @@
 package Dist::Zilla::Plugin::Iller::MintFiles;
 
-our $VERSION = '0.1100'; # VERSION
+our $VERSION = '0.1101'; # VERSION
 
 use Moose;
 extends 'Dist::Zilla::Plugin::InlineFiles';
@@ -35,7 +35,7 @@ Dist::Zilla::Plugin::Iller::MintFiles
 
 =head1 VERSION
 
-version 0.1002
+version 0.1101
 
 =head1 AUTHOR
 

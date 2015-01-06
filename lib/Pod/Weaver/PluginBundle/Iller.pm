@@ -2,7 +2,7 @@ use 5.10.1;
 
 package Pod::Weaver::PluginBundle::Iller;
 
-our $VERSION = '0.1100'; # VERSION
+our $VERSION = '0.1101'; # VERSION
 
 use strict;
 use warnings;
@@ -69,8 +69,6 @@ sub mvp_bundle_config {
 
 1;
 
-# ABSTRACT: Pod::Weaver meets Dist::Iller
-
 __END__
 
 =pod
@@ -79,11 +77,11 @@ __END__
 
 =head1 NAME
 
-Pod::Weaver::PluginBundle::Iller - Pod::Weaver meets Dist::Iller
+Pod::Weaver::PluginBundle::Iller
 
 =head1 VERSION
 
-version 0.1002
+version 0.1101
 
 =head1 AUTHOR
 

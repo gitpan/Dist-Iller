@@ -1,6 +1,6 @@
 package Dist::Iller::App;
 
-our $VERSION = '0.1100'; # VERSION
+our $VERSION = '0.1101'; # VERSION
 
 use 5.10.1;
 use strict;
@@ -25,7 +25,7 @@ sub prepare_command {
     }
     elsif ($cmd->isa('Dist::Zilla::App::Command::new')) {
         $ENV{'ILLER_MINTING'} = 1;
-        IPC::Run::run [qw/dzil new --provider Iller --profile iller/, $args[0] ];
+        IPC::Run::run [qw/dzil new --provider Author::CSSON --profile csson/, $args[0] ];
         my $dir = $args[0];
         $dir =~ s{::}{-}g;
 
@@ -57,7 +57,7 @@ Dist::Iller::App
 
 =head1 VERSION
 
-version 0.1002
+version 0.1101
 
 =head1 AUTHOR
 
